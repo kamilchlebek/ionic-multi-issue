@@ -10,7 +10,8 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "app1": "ionic capacitor run ios --project=agenda-mobile --livereload --external"
+    "app1": "ionic capacitor run ios --project=app1 --livereload --external",
+    "app2": "ionic capacitor run ios --project=app2 --livereload --external"
   },
   "private": true,
   "dependencies": {
