@@ -1,5 +1,13 @@
 {
-  "name": "p",
-  "integrations": {},
-  "type": "angular"
+  "projects": {
+    "app1": {
+      "name": "app1",
+      "integrations": {
+        "capacitor": {}
+      },
+      "type": "angular",
+      "root": "apps/app1"
+    }
+  },
+  "defaultProject": "app1"
 }
