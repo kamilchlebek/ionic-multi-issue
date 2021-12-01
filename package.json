@@ -11,7 +11,8 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "app1": "ionic capacitor run ios --project=app1 --livereload --external",
-    "app2": "ionic capacitor run ios --project=app2 --livereload --external"
+    "app2": "ionic capacitor run ios --project=app2 --livereload --external",
+    "add": "ionic capacitor add ios --project=app1"
   },
   "private": true,
   "dependencies": {
@@ -36,6 +37,9 @@
     "@angular/compiler": "~12.1.1",
     "@angular/compiler-cli": "~12.1.1",
     "@angular/language-service": "~12.0.1",
+    "@capacitor/cli": "^3.3.2",
+    "@capacitor/core": "^3.3.2",
+    "@capacitor/ios": "^3.0.1",
     "@ionic/angular-toolkit": "^4.0.0",
     "@ionic/cli": "^6.14.0",
     "@types/jasmine": "~3.6.0",

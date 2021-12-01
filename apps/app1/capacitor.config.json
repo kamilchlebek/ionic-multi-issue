@@ -1,1 +1,12 @@
-{}
+{
+  "appName": "app1",
+  "appId": "com.app1",
+  "webDir": "../../dist/app1",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "plugins": {
+    "SplashScreen": {
+      "launchAutoHide": false
+    }
+  }
+}
