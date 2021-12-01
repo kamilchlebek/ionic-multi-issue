@@ -1,6 +1,0 @@
-{
-  "name": "app2",
-  "dependencies": {
-    "@capacitor/ios": "file:../../node_modules/@capacitor/ios"
-  }
-}
